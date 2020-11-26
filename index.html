@@ -411,14 +411,13 @@
 
 		<!-- модальное окно -->
 		<div class="backdrop is-hidden" data-modal>
-			<form action=""></form>
-			<form class="modal">
-				<button class="modal-close" data-modal-close>
+				<button class="modal__close" data-modal-close>
 					<svg class="modal__button" width="11" height="11">
 						<use href="./image/sprite.svg#icon-close"></use>
 					</svg>
 				</button>
-
+			<form action=""></form>
+			<form class="modal">
 				<b class="modal__title">Оставьте свои данные, мы вам перезвоним</b>
 				<label class="modal__label">
 					<input class="modal__name" placeholder=" " type="text" name="name" />
@@ -441,9 +440,8 @@
 					</svg>
 					<span class="modal__text">Почта</span>
 				</label>
-				<label class="modal__label">
-					<textarea class="modal__comments" name="comments" placeholder=" ">
-										</textarea>
+				<label class="modal__label comments">
+					<textarea class="modal__comments" name="comments" placeholder=" "></textarea>
 					<span class="modal__comments--name">Комментарий</span>
 				</label>
 				<label class="modal__agreement">
