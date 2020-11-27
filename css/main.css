@@ -512,14 +512,15 @@ a {
 
 .modal__close {
   display: flex;
+  position: absolute;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
   padding: 0;
   margin: 0;
   top: 8px;
   right: 8px;
+  /* transform: translate(20%, -20%); */
   width: 30px;
   height: 30px;
   border: none;
@@ -537,12 +538,6 @@ a {
 .modal__close:focus-within > .modal__button {
   fill: var(--accent-color);
   cursor: pointer;
-}
-
-.modal__open {
-  position: absolute;
-  top: 16%;
-  left: 62%;
 }
 
 .message {
