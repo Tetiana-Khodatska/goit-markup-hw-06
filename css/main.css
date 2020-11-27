@@ -520,7 +520,6 @@ a {
   margin: 0;
   top: 8px;
   right: 8px;
-  transform: translate(-2850%, 485%);
   width: 30px;
   height: 30px;
   border: none;
@@ -538,6 +537,12 @@ a {
 .modal__close:focus-within > .modal__button {
   fill: var(--accent-color);
   cursor: pointer;
+}
+
+.modal__open {
+  position: absolute;
+  top: 16%;
+  left: 62%;
 }
 
 .message {
