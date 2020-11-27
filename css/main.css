@@ -511,7 +511,7 @@ a {
 }
 
 .modal__close {
-  display: flex;
+  display: inline-block;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -531,12 +531,12 @@ a {
   box-sizing: border-box;
 }
 
-.modal-close:hover > .modal__button {
+.modal__close:hover > .modal__button {
   fill: var(--accent-color);
   cursor: pointer;
 }
 
-.modal-close:focus-within > .modal__button {
+.modal__close:focus-within > .modal__button {
   fill: var(--accent-color);
   cursor: pointer;
 }
